@@ -1,0 +1,102 @@
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 10px;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+.form span {
+  font-size: 25px;
+  margin-right: 20px;
+  color: white;
+}
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+
+.validacion {
+  width: 80%;
+  color: red;
+  margin: 0 auto;
+}
+
+.lista {
+  width: 50%;
+  margin-top: 0px;
+  margin: 50px auto 0;
+}
+
+.tarea {
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  border-radius: 10px;
+  background:rgb(100, 200, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.botonedit{
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 10px;
+  margin-left: 50px;
+  text-align: center;
+}
+.botonedit:hover{
+  background-color: white; /* Green */
+  color: black;
+}
+.botonedit2{
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 10px;
+  text-align: center;
+}
+.botonedit2:hover{
+  background-color: red; /* Green */
+  color: white;
+}
